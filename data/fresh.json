@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/bltc10314f25ed26a39/61080ba596e17b7553628ea3/airasiafarmgr8deals.jpg",
+		"label": "",
+		"title": "Get 10% off (use code: AAFARM88)"
+	},
+	{
+		"id": 2,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/bltd56346c62c8143cd/60fe407760e48e11c9690791/AAFreshLazyPeople.jpg",
+		"label": "ALL FRESH",
+		"title": "Shop vegetables and fruits 🥝🥕"
+	},
+	{
+		"id": 3,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt0fb08d0db8154372/60fd703480ce947e9b4fcf95/AAFreshPihapi.jpg",
+		"label": "BEST DEAL",
+		"title": "Shop snacks and Korean pantry items 🥫"
+	},
+	{
+		"id": 4,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/bltfe8145e22080a507/60fd7035ada5421054adbced/AAFreshKaeson.jpg",
+		"label": "ON SALE",
+		"title": "Shop for fresh chicken 🐔"
+	},
+	{
+		"id": 5,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt81e113be92c22fae/60fd7035c3fd5f11caccca6e/AAFreshIFroze.jpg",
+		"label": "GREAT VALUE",
+		"title": "Shop for frozen food 🍣"
+	},
+	{
+		"id": 6,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt24ecfa5fb9c5c561/60fd7034f46ba27d21795a61/AAFreshSejadi.jpg",
+		"label": "",
+		"title": "Shop for meats and seafood 🍤"
+	},
+	{
+		"id": 7,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt5cfe3244c83e0094/60fd6edd80ce947e9b4fcf91/FDFreshCarousel.jpg",
+		"label": "",
+		"title": "Shop MCO Kitchen Essentials"
+	}
+]

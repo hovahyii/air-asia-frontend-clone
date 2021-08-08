@@ -1,0 +1,74 @@
+ [
+	{
+		"id": 1,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt460ed42ef6f22641/608ec677162d47104df4a747/web_icon_workingfile_Makeup.png?format=jpg&width=200",
+		"title": "Make Up"
+	},
+	{
+		"id": 2,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/bltc4b4f26538df3d90/608ec6773aa0431020f5eabb/web_icon_workingfile_Fragrance.png",
+		"title": "Fragrance"
+	},
+	{
+		"id": 3,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt21d93e8f18040530/608ec693f07013101daf21d4/web_icon_workingfile_skincare.png",
+		"title": "Skincare"
+	},
+	{
+		"id": 4,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt809c5a61d20deb26/608ec676f6a831100b5de880/web_icon_workingfile_bathnbody.png",
+		"title": "Bath &amp; Body"
+	},
+	{
+		"id": 5,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt9925fea1739e0ad9/608ec6772d1d221032193e9d/web_icon_workingfile_Eletronics.png",
+		"title": "Electronics"
+	},
+	{
+		"id": 6,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/bltb73afac109dbab15/608ec67771e79f1024c9a1c9/web_icon_workingfile_burger.png",
+		"title": "Burgers"
+	},
+	{
+		"id": 7,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt04c9c1c5f1330f3e/608ec693f6a831100b5de884/web_icon_workingfile_meatnseafood.png",
+		"title": "Meat &amp; Seafo..."
+	},
+	{
+		"id": 8,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt809c5a61d20deb26/608ec676f6a831100b5de880/web_icon_workingfile_bathnbody.png",
+		"title": "Nasi Lemak"
+	},
+	{
+		"id": 9,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt01b11ae0efabaac7/608ec6777b4f5110164a47a5/web_icon_workingfile_FreshProduct.png",
+		"title": "Fresh Produc..."
+	},
+	{
+		"id": 10,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt8151f3bd3269ce3c/608ec6931022211019ccc4d8/web_icon_workingfile_Organic.png",
+		"title": "Organic"
+	},
+	{
+		"id": 11,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blte0cca58cb62243b9/608ec677b9440f10206eb415/web_icon_workingfile_Jewelry.png",
+		"title": "Jewelry"
+	},
+	{
+		"id": 12,
+		"image":
+			"https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt144f1ac063df7c04/608ec6771022211019ccc4d4/web_icon_workingfile_cake.png",
+		"title": "Cakes"
+	}
+]

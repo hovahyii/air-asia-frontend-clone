@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt6aaaf35ca91f48a0/6107f2f9fef0ad1b8c9bd4ad/Insurance-PromoBanner_Promo_Launch_copy_3.jpg",
+		"title": "Win Perodua Axia!",
+		"subtitle": "when you renew your car insurance with us"
+	},
+	{
+		"id": 2,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt30e361d50874cbb5/60c6edf9f33fd90fa1ed268e/Naluri-Sustenance_carousel_580x360.jpg",
+		"title": "Naluri Food Journal",
+		"subtitle": "airasia super app just got healthier, with AI-assisted meal logs"
+	},
+	{
+		"id": 3,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt646c9e576170db78/610cd729365a7d358c6bf362/BIG_MYEN.jpg",
+		"title": "BONUS BIG Points!",
+		"subtitle": "Convert to BIG Points & redeem deals from us. Convert now!"
+	},
+	{
+		"id": 4,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt38a743ecb192356e/60498d3c1322a9094ddf0096/210201_ENG_airasiachat_banner.png?disposition=inline",
+		"title": "All Your Groceries with One Flat Price",
+		"subtitle": ""
+	}
+]

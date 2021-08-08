@@ -1,0 +1,31 @@
+[
+	{
+		"id": 1,
+		"image": "https://images.contentstack.io/v3/assets/blt2a130c768c36b9df/blt249df8b7db2bcdbb/60df00ef48dce53d63b21af5/carousel_emco.jpg?width=580&height=360&quality=80&format=jpg",
+		"title": "IKHLAS EMCO Relief Fund",
+		"subtitle": "Donate online to assist those affected during the EMCO in Kuala Lumpur and Selangor regardless of race and religion.",
+		"button": "Donate Now!"
+	},
+	{
+		"id": 2,
+		"image": "https://images.contentstack.io/v3/assets/blt2a130c768c36b9df/blt8941f26bbe9cd083/5fdb8dc8e7fdff751b791bc6/carousel_2.jpg?width=580&height=360&quality=80&format=jpg",
+		"title": "Sadaqah",
+		"subtitle": "Donate online to support local community-based organisations",
+		"button": "Donate Now"
+	},
+	{
+		"id": 3,
+		"image": "https://images.contentstack.io/v3/assets/blt2a130c768c36b9df/blt9a48e9fcfbbe1321/6050209b3cd2287ca2f5e64f/shop_en.jpg?width=580&height=360&quality=80&format=jpg",
+		"title": "SHOP With IKHLAS",
+		"subtitle": "Your Muslim friendly e-commerce platform!",
+		"button": "Buy Now!"
+	},
+	{
+		"id": 4,
+		"image": "https://images.contentstack.io/v3/assets/blt2a130c768c36b9df/bltc8a3be0df7796f24/60d94fb9063bbd63cd7381ea/Widget_Qurban_Airasia_ENG.jpg?width=580&height=360&quality=80&format=jpg",
+		"title": "Qurban",
+		"subtitle": "Easy, convenience and affordable online service to perform Qurban during Eid-al-Adha",
+        "label": "Registration Closed",
+		"button": "Check Qurban Status"
+	}
+]

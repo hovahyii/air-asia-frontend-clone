@@ -1,0 +1,30 @@
+[
+	{
+		"id": 1,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/bltca3b9736f78f50d7/60f7803f1929bc58854d0894/Main.jpg",
+		"title": "Enjoy Free Delivery",
+        "subtitle": "Get your meals, restock your grocery and beauty needs",
+        "button": "Shop Now"
+	},
+	{
+		"id": 2,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/bltb3a2ac540cbf674c/60f7803eda6f75588bd906dd/AAFOOD.jpg",
+		"title": "airasia food",
+		"subtitle": "FREE Delivery up to 15km with min spend of RM15",
+		"button": "Order Now"
+	},
+	{
+		"id": 3,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt0a691e8bace8a409/60f7803ee2de935fc7e35f30/AAFRESH.jpg",
+		"title": "airasia fresh",
+		"subtitle": "FREE Delivery up to 40km with min spend of RM15",
+		"button": "Shop Now"
+	},
+	{
+		"id": 4,
+		"image": "https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt71290eb4fef72e6a/60f7803e429fb95880e5822a/AABEAUTY.jpg",
+		"title": "airasia beauty",
+		"subtitle": "FREE Delivery with min spend of RM 50",
+		"button": "Shop Now"
+	}
+]

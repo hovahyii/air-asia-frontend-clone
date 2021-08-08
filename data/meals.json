@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"image": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt40b69c8f88485511/6109da49365a7d358c6bdf6a/AAFood_Freemeals_KlangValley_Carousel.jpg",
+		"title": "FREE MEALS in Klang Valley",
+		"button": "Order Now"
+	},
+	{
+		"id": 2,
+		"image": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt40b69c8f88485511/6109da49365a7d358c6bdf6a/AAFood_Freemeals_KlangValley_Carousel.jpg",
+		"title": "FREE MEALS in Penang",
+		"button": "Order Now"
+	},
+	{
+		"id": 3,
+		"image": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/blt40b69c8f88485511/6109da49365a7d358c6bdf6a/AAFood_Freemeals_KlangValley_Carousel.jpg",
+		"title": "FREE MEALS in Kota Kinabalu",
+		"button": "Order Now"
+	},
+	{
+		"id": 4,
+		"image": "https://images.contentstack.io/v3/assets/bltdf38de19a247654d/bltc8e51c5d954fd093/6109da4993c9a33d7352ebd3/AAFood_Freemeals_Seremban_Carousel.jpg",
+		"title": "FREE MEALS in Seremban",
+		"button": "Order Now"
+	}
+]

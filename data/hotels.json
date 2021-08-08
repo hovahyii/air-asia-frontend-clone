@@ -1,0 +1,26 @@
+[
+	{
+		"id": 1,
+		"image": "https://a.staticaa.com/images/web-apps/hotel/dsimages/4413552/Hero2.jpg",
+		"location": "Johor Bahru",
+		"price": "65.00"
+	},
+	{
+		"id": 2,
+		"image": "https://a.staticaa.com/images/web-apps/hotel/dsimages/4413551/Hero.jpg",
+		"location": "Johor Bahru",
+		"price": "50.00"
+	},
+	{
+		"id": 3,
+		"image": "https://a.staticaa.com/images/web-apps/hotel/dsimages/39810602/Hero2.png",
+		"location": "Kuala Lumpur",
+		"price": "65.00"
+	},
+	{
+		"id": 4,
+		"image": "https://a.staticaa.com/images/web-apps/hotel/dsimages/4413549/Hero.jpg",
+		"location": "Kota Kinabalu",
+		"price": "57.75"
+	}
+]
