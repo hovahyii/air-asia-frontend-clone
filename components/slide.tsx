@@ -1,54 +1,13 @@
 import {useKeenSlider} from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
-import React from "react"
-
-
-
-
-
 
 const Slides = (props) => {
 
-	const [pause, setPause] = React.useState(false)
-	const timer = React.useRef()
-	const [sliderRef, slider] = useKeenSlider({
-		loop: true,
-		duration: 2000,
-	
-		dragStart: () => {
-			setPause(true)
-		},
-		dragEnd: () => {
-			setPause(false)
-		},
-	})
 
-	React.useEffect(() => {
-		sliderRef.current.addEventListener("mouseover", () => {
-			setPause(true)
-		})
-		sliderRef.current.addEventListener("mouseout", () => {
-			setPause(false)
-		})
-	}, [sliderRef])
-
-	React.useEffect(() => {
-		timer.current = setInterval(() => {
-			if (!pause && slider) {
-				slider.next()
-			}
-		}, 2000)
-		return () => {
-			clearInterval(timer.current)
-		}
-	}, [pause, slider])
 
 	return (
 		<>
-			<div
-				ref={sliderRef}
-				className=" keen-slider flex justify-center align-items pt-10"
-			>
+		
 				<div className="keen-slider__slide number-slide1">
 					<img
 						src="https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/bltcf2e483f8c2c381e/60f8f05c8af675613a4af6d4/Flights_Hero_Banner(Web)_-_EN_(2)-8.png"
@@ -89,7 +48,7 @@ const Slides = (props) => {
 						width="100%"
 					/>
 				</div>
-			</div>
+			
 		</>
 	)
 }
