@@ -10,6 +10,7 @@ import Fresh from "../components/fresh"
 import Hotels from "../components/hotels"
 import Ikhlas from "../components/ikhlas"
 import Travel from "../components/travel"
+import Footer from "../components/main/footer"
 
 export default function Home() {
   return (
@@ -39,6 +40,7 @@ export default function Home() {
 			<Hotels />
 			<Ikhlas />
 			<Travel />
+			<Footer />
 		</div>
 	)
 }
