@@ -47,7 +47,7 @@ const Slides = () => {
 							key={slide.id}
 							src={slide.image}
 							alt={slide.title}
-							className=" object-cover w-full  h-48 "
+							className=" object-cover  w-full  h-60 "
 						></img>
 					</div>
 				))}
