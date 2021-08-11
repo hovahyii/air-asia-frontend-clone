@@ -8,9 +8,12 @@ function Delivery() {
 			</h1>
 			<div className="font-DMsans w-full w-full ml-60 mt-4 flex">
 				{Deliveries.map((delivery) => (
-					<div className=" border-solid border-2 rounded-xl w-72 mr-3 hover:shadow-lg">
+					<div className=" border-solid border-2 rounded-xl w-72 mr-3 hover:shadow-lg ">
 						<div key={delivery.id}>
-							<img className="rounded object-cover" src={delivery.image} />
+							<img
+								className="rounded"
+								src={delivery.image}
+							/>
 						</div>
 						<div className="m-5">
 							<h1 className="">{delivery.title}</h1>

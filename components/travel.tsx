@@ -3,7 +3,7 @@ import Travels from "../data/travel.json"
 function Travel() {
 	return (
 		<>
-			<h1 className="font-DMsans text-2xl	text-gray-800 uppercase w-full mt-10 ml-60">
+			<h1 className="font-DMsans text-2xl	text-gray-800  w-full mt-10 ml-60">
 				Travel &amp; Promotions
 			</h1>
 			<div className="font-DMsans w-full w-full ml-60 mt-4 flex">
