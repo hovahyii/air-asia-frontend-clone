@@ -6,7 +6,7 @@ function FreeMeals() {
 			<h1 className="font-DMsans text-2xl	text-gray-800  w-full  mt-10 ml-60">
 				FREE MEALS on airasia food
 			</h1>
-			<div className="font-DMsans w-full w-full ml-60 mt-4 flex">
+			<div className="font-DMsans w-full ml-60 mt-4 flex">
 				{Meals.map((meal) => (
 					<div className=" border-solid border-2 rounded-xl w-72 mr-3 hover:shadow-lg">
 						<div key={meal.id}>

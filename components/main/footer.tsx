@@ -3,63 +3,63 @@ import Image from "next/image"
 const Footer = () => {
 	return (
 		<>
-			<section className=" bg-gray-50	font-DMsans w-full  ">
-				<div className="mt-8 ml-40 flex">
-					<h1 className="mt-8 mb-8 text-3xl text-gray-600 	">
+			<section className=" bg-gray-50	font-DMsans w-full  mt-20 ">
+				<div className="ml-40 flex">
+					<h1 className="mt-8 mb-8 text-3xl text-gray-600 ">
 						Book your Flights, Hotels &amp; SNAP
 					</h1>
 				</div>
 				<hr className="ml-40  w-4/5" />
 				<div className="grid grid-rows-3 grid-flow-col gap-24 ml-40 mt-8 w-4/5 mb-8 text-xs	 text-gray-500">
 					<ul className="row-start-1 row-end-4	">
-						<li className="mb-2	">Travel Information</li>
-						<li className="mb-2	">Airports and terminals</li>
-						<li className="mb-2	">Baggage</li>
-						<li className="mb-2">Check-in information</li>
-						<li className="mb-2">Our fares</li>
-						<li className="mb-2">Flight status</li>
-						<li className="mb-2">Inflight meals</li>
-						<li className="mb-2">Inflight entertainment</li>
-						<li className="mb-2">Payment channels</li>
-						<li className="mb-2">Seat options</li>
-						<li className="mb-2">Tax invoice</li>
-						<li className="mb-2">AirAsia India tariff sheet</li>
+						<li className="mb-2	"><a href="">Travel Information</a></li>
+						<li className="mb-2	"><a href="">Airports and terminals</a></li>
+						<li className="mb-2	"><a href="">Baggage</a></li>
+						<li className="mb-2"><a href="">Check-in information</a></li>
+						<li className="mb-2"><a href="">Our fares</a></li>
+						<li className="mb-2"><a href="">Flight status</a></li>
+						<li className="mb-2"><a href="">Inflight meals</a></li>
+						<li className="mb-2"><a href="">Inflight entertainment</a></li>
+						<li className="mb-2"><a href="">Payment channels</a></li>
+						<li className="mb-2"><a href="">Seat options</a></li>
+						<li className="mb-2"><a href="">Tax invoice</a></li>
+						<li className="mb-2"><a href="">AirAsia India tariff sheet</a></li>
 						<li>Fees and Charges</li>
 					</ul>
 					<ul className="row-start-1  row-end-4 ">
-						<li className="mb-2">Our Products and Services</li>
-						<li className="mb-2">AirAsia Unlimited Deals</li>
-						<li className="mb-2">IKHLAS</li>
-						<li className="mb-2">Cheap flights</li>
-						<li className="mb-2">Red Carpet</li>
-						<li className="mb-2">Premium Up</li>
-						<li className="mb-2">Freedom Flyer Programme</li>
-						<li className="mb-2">BIG Points</li>
-						<li className="mb-2">BIG Xchange</li>
-						<li className="mb-2">Register as an agent</li>
-						<li className="mb-2">Agent login</li>
-						<li className="mb-2">Charter</li>
+						<li className="mb-2"><a href="">Our Products and Services</a></li>
+						<li className="mb-2"><a href="">AirAsia Unlimited Deals</a></li>
+						<li className="mb-2"><a href="">IKHLAS</a></li>
+						<li className="mb-2"><a href="">Cheap flights</a></li>
+						<li className="mb-2"><a href="">Red Carpet</a></li>
+						<li className="mb-2"><a href="">Premium Up</a></li>
+						<li className="mb-2"><a href="">Freedom Flyer Programme</a></li>
+						<li className="mb-2"><a href="">BIG Points</a></li>
+						<li className="mb-2"><a href="">BIG Xchange</a></li>
+						<li className="mb-2"><a href="">Register as an agent</a></li>
+						<li className="mb-2"><a href="">Agent login</a></li>
+						<li className="mb-2"><a href="">Charter</a></li>
 						<li>Download e-catalog</li>
 					</ul>
 					<ul className="row-start-1  row-end-4 ">
-						<li className="mb-2">Partners' Product</li>
-						<li className="mb-2">Delivery Partner Sign-Up</li>
-						<li className="mb-2">airasia Card</li>
-						<li className="mb-2">Luggage delivery</li>
-						<li className="mb-2">BigPay</li>
-						<li className="mb-2">CIMB Savers</li>
-						<li className="mb-2">AirAsia Travel Protection</li>
-						<li>Santan ASEAN Restaurant</li>
+						<li className="mb-2"><a href="">Partners' Product</a></li>
+						<li className="mb-2"><a href="">Delivery Partner Sign-Up</a></li>
+						<li className="mb-2"><a href="">airasia Card</a></li>
+						<li className="mb-2"><a href="">Luggage delivery</a></li>
+						<li className="mb-2"><a href="">BigPay</a></li>
+						<li className="mb-2"><a href="">CIMB Savers</a></li>
+						<li className="mb-2"><a href="">AirAsia Travel Protection</a></li>
+						<li><a href="">Santan ASEAN Restaurant</a></li>
 					</ul>
 					<ul className="row-start-1   row-end-4">
-						<li className="mb-2">About Us</li>
-						<li className="mb-2">Ad space</li>
-						<li className="mb-2">AirAsia Foundation</li>
-						<li className="mb-2">Careers</li>
-						<li className="mb-2">Investor relations</li>
-						<li className="mb-2">Newsroom</li>
-						<li className="mb-2">Sales office</li>
-						<li className="mb-2">Promotions</li>
+						<li className="mb-2"><a href="">About Us</a></li>
+						<li className="mb-2"><a href="">Ad space</a></li>
+						<li className="mb-2"><a href="">AirAsia Foundation</a></li>
+						<li className="mb-2"><a href="">Careers</a></li>
+						<li className="mb-2"><a href="">Investor relations</a></li>
+						<li className="mb-2"><a href="">Newsroom</a></li>
+						<li className="mb-2"><a href="">Sales office</a></li>
+						<li className="mb-2"><a href="">Promotions</a></li>
 						<li>Food Promotions</li>
 					</ul>
 				</div>
@@ -113,21 +113,33 @@ const Footer = () => {
 						©2021 AirAsia Group Berhad. This website is owned and operated by
 						AirAsia Com Travel Sdn Bhd (201301020508), a registered travel
 						agency (KPK/LN License No: 8287). Your usage of this website
-						indicates that you agree to be bound by our Terms and Conditions,
-						Terms of Use and Privacy Statement.
+						indicates that you agree to be bound by our
+						<a href="" className="text-red-500"> Terms and Conditions</a>,
+						<a href="" className="text-red-500"> Terms of Use</a>
+						and <a href="" className="text-red-500"> Privacy Statement</a>.
 					</p>
 				</div>
-				<div className="ml-40 mt-8 w-4/5 mb-8 text-xs">
+				<div className="ml-40 mt-4 w-4/5 mb-8 text-xs">
 					<ul className="flex">
-						<li className="text-red-500">AirAsia Berhad (Malaysia) </li>
-						<li className="mr-2 ml-2">|</li>
-						<li className="text-red-500">Thai AirAsia Co. Ltd </li>
-						<li className="mr-2 ml-2">|</li>
-						<li className="text-red-500">PT Indonesia AirAsia </li>
-						<li className="mr-2 ml-2">|</li>
-						<li className="text-red-500">Philippines AirAsia Inc. </li>
-						<li className="mr-2 ml-2">|</li>
-						<li className="text-red-500">AirAsia (India) Limited </li>
+						<li className="text-red-500">
+							<a href="">AirAsia Berhad (Malaysia)</a>
+						</li>
+						<li className="mr-1 ml-1">|</li>
+						<li className="text-red-500">
+							<a href="">Thai AirAsia Co. Ltd </a>
+						</li>
+						<li className="mr-1 ml-1">|</li>
+						<li className="text-red-500">
+							<a href="">PT Indonesia AirAsia</a>
+						</li>
+						<li className="mr-1 ml-1">|</li>
+						<li className="text-red-500">
+							<a href="">Philippines AirAsia Inc.</a>
+						</li>
+						<li className="mr-1 ml-1">|</li>
+						<li className="text-red-500">
+							<a href="">AirAsia (India) Limited</a>
+						</li>
 					</ul>
 				</div>
 			</section>

@@ -3,7 +3,7 @@ import fresh from "../data/fresh.json"
 function Fresh() {
 	return (
 		<>
-			<h1 className="font-DMsans text-2xl	text-gray-800 mt-4 w-full mt-10 ml-60">
+			<h1 className="font-DMsans text-2xl	text-gray-800  w-full mt-10 ml-60">
 				Fresh
 			</h1>
 			<div className="font-DMsans w-full w-full ml-60 mt-4 flex">

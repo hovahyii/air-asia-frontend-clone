@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const NavBar = () => {
 	return (
-		<nav className="font-DMsans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-12 bg-white sm:items-baseline w-full">
+		<nav className="font-DMsans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-10 bg-white sm:items-baseline w-full">
 			<div className="flex items-center flex-shrink-0 mr-6  px-10">
 				<Image
 					src="logos/airasiacom_logo.svg"
@@ -76,7 +76,7 @@ const NavBar = () => {
 						className="inline-flex  text-md no-underline  text-gray-500 hover:text-red-500 mr-2 px-2"
 					>
 						<p className="mr-2">
-							<i className="fa fa-user-circle"></i>{" "}
+							<i className="fa fa-user-circle"></i>
 						</p>
 						<p>Login/Signup</p>
 					</a>
