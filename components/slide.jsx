@@ -4,19 +4,24 @@ import React from "react"
 import slides from "../data/slides.json"
 
 const Slides = () => {
+  const [currentSlide, setCurrentSlide] = React.useState(0)
 
  const [pause, setPause] = React.useState(false)
   const timer = React.useRef()
   const [sliderRef, slider] = useKeenSlider({
-    loop: true,
-    duration: 1000,
-    dragStart: () => {
-      setPause(true)
-    },
-    dragEnd: () => {
-      setPause(false)
-    },
-  })
+		loop: true,
+		initial: 0,
+		slideChanged(s) {
+			setCurrentSlide(s.details().relativeSlide)
+		},
+		duration: 1000,
+		dragStart: () => {
+			setPause(true)
+		},
+		dragEnd: () => {
+			setPause(false)
+		},
+	})
 
   React.useEffect(() => {
     sliderRef.current.addEventListener("mouseover", () => {
@@ -47,10 +52,25 @@ const Slides = () => {
 							key={slide.id}
 							src={slide.image}
 							alt={slide.title}
-							className=" object-cover  w-full  h-60 "
+							className=" object-cover w-full h-72"
 						></img>
 					</div>
 				))}
+				{slider && (
+					<div className="dots">
+						{[...Array(slider.details().size).keys()].map((idx) => {
+							return (
+								<button
+									key={idx}
+									onClick={() => {
+										slider.moveToSlideRelative(idx)
+									}}
+									className={"dot" + (currentSlide === idx ? " active" : "")}
+								/>
+							)
+						})}
+					</div>
+				)}
 			</div>
 		</>
 	)
