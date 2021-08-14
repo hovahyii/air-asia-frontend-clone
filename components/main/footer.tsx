@@ -115,8 +115,8 @@ const Footer = () => {
 						agency (KPK/LN License No: 8287). Your usage of this website
 						indicates that you agree to be bound by our
 						<a href="" className="text-red-500"> Terms and Conditions</a>,
-						<a href="" className="text-red-500"> Terms of Use</a>
-						and <a href="" className="text-red-500"> Privacy Statement</a>.
+						<a href="" className="text-red-500"> Terms of Use </a>
+						 and <a href="" className="text-red-500"> Privacy Statement</a>.
 					</p>
 				</div>
 				<div className="ml-40 mt-4 w-4/5 mb-8 text-xs">
