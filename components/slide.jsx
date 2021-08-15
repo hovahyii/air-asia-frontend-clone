@@ -45,7 +45,7 @@ const Slides = () => {
 
   return (
 		<>
-			<div ref={sliderRef} className="keen-slider w-3/4 ml-60 mt-8">
+			<div ref={sliderRef} className="keen-slider w-4/5 ml-44 mt-8">
 				{slides.map((slide) => (
 					<div className="keen-slider__slide">
 						<img
