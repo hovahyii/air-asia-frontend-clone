@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const Categories = () => {
 	return (
-		<div className="font-DMsans  mt-8 ml-56 flex ">
+		<div className="font-DMsans  mt-8 ml-56 flex  w-full">
 			<div className="pr-12">
 				<label className="grid-rows-1 text-xs bg-red-100 text-red-500 p-0.8 text-center pl-1 pr-1">
 					FREE DEL

@@ -1,13 +1,14 @@
 import {useKeenSlider} from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
-import React from "react"
+import React, {useRef,  useState, useEffect} from "react"
 import slides from "../data/slides.json"
 
 const Slides = () => {
-  const [currentSlide, setCurrentSlide] = React.useState(0)
+  const [currentSlide, setCurrentSlide] = useState(0)
 
- const [pause, setPause] = React.useState(false)
-  const timer = React.useRef()
+  const [pause, setPause] = useState(false)
+let onSizeChangeSetInterval: NodeJS.Timer
+
   const [sliderRef, slider] = useKeenSlider({
 		loop: true,
 		initial: 0,
@@ -23,7 +24,7 @@ const Slides = () => {
 		},
 	})
 
-  React.useEffect(() => {
+  useEffect(() => {
     sliderRef.current.addEventListener("mouseover", () => {
       setPause(true)
     })
@@ -32,20 +33,23 @@ const Slides = () => {
     })
   }, [sliderRef])
 
-  React.useEffect(() => {
-    timer.current = setInterval(() => {
-      if (!pause && slider) {
-        slider.next()
-      }
-    }, 2000)
+  useEffect(() => {
+    onSizeChangeSetInterval = setInterval(() => {
+			if (!pause && slider) {
+				slider.next()
+			}
+		}, 2000)
     return () => {
-      clearInterval(timer.current)
+      clearInterval(onSizeChangeSetInterval)
     }
   }, [pause, slider])
 
   return (
 		<>
-			<div ref={sliderRef} className="keen-slider w-4/5 ml-44 mt-8">
+			<div
+				ref={sliderRef as React.RefObject<HTMLDivElement>}
+				className="keen-slider w-4/5 ml-44 mt-8"
+			>
 				{slides.map((slide) => (
 					<div className="keen-slider__slide">
 						<img

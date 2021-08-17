@@ -1,12 +1,28 @@
 import Beauty from "../data/beauty.json"
+import React, {useState, useEffect} from "react"
 
 function Delivery() {
+	const [start, setStart] = useState(0)
+	const [end, setEnd] = useState(4)
+	const [show, setShow] = useState(true)
+
+	const showNextItems = () => {
+		setStart((prevValue) => prevValue + 1)
+		setEnd((prevValue) => prevValue + 1)
+		setShow((show) => !show)
+	}
+
+	const showPreviousItems = () => {
+		setStart((nextValue) => nextValue - 1)
+		setEnd((nextValue) => nextValue - 1)
+		setShow((show) => !show)
+	}
 	return (
 		<>
 			<h1 className="font-DMsans text-2xl	text-gray-800 mt-10 ml-44">Beauty</h1>
 			<div className="font-DMsans w-4/5 ml-44 mt-4 flex">
-				{Beauty.slice(0, 3).map((beauty) => (
-					<div className=" border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg   z-0 ">
+				{Beauty.slice(start, end).map((beauty) => (
+					<div className=" border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg ">
 						<div key={beauty.id}>
 							<img
 								className="rounded object-cover h-44 w-full"
@@ -18,26 +34,32 @@ function Delivery() {
 						</div>
 					</div>
 				))}
-				{Beauty.slice(3, 4).map((beauty) => (
-					<div className=" border-solid border-2 rounded-xl w-80 hover:shadow-lg   z-0 ">
-						<div key={beauty.id}>
-							<img className="rounded object-cover h-44 w-full" src={beauty.image} />
-						</div>
-						<div className="m-5">
-							<h1 className="">{beauty.title}</h1>
-						</div>
-					</div>
-				))}
 
-				<div className="mt-28 ">
-					<button className="border-2	border-gray-100  rounded w-8 h-8 z-10 shadow-lg  absolute -mx-4	 bg-white	 ">
+				{show ? (
+					<div className="mt-28 ">
+						<button
+							onClick={showNextItems}
+							className="border-2	border-gray-100 rounded w-8 h-8  shadow-lg  -mx-6 float-right absolute bg-white"
+						>
+							<div>
+								<div className="object-center">
+									<i className="fa fa-angle-right fa-lg"></i>
+								</div>
+							</div>
+						</button>
+					</div>
+				) : (
+					<button
+						onClick={showPreviousItems}
+						className="border-2	border-gray-100 rounded w-8 h-8 mt-28   shadow-lg -mx-6 float-left absolute bg-white"
+					>
 						<div>
-							<div className="object-center p-1">
-								<i className="fa fa-angle-right fa-lg"></i>
+							<div className="object-center">
+								<i className="fa fa-angle-left fa-lg"></i>
 							</div>
 						</div>
 					</button>
-				</div>
+				)}
 			</div>
 		</>
 	)
