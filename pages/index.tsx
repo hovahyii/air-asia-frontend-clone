@@ -16,6 +16,28 @@ export default function Home() {
   return (
 		<div className="overflow-x-hidden w-full">
 			<Head>
+				<title>
+					airasia | For Everyone | Flights, Hotels, Activities &amp; More
+				</title>
+				<meta charSet="UTF-8" />
+
+				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+				<meta
+					property="og:title"
+					content="airasia | For Everyone | Flights, Hotels, Activities &amp; More"
+					key="title"
+				/>
+				<meta
+					name="description"
+					content="The Asean super app for booking flights, hotels, activities, food, unlimited deals and so much more! Check out airasia.com and get only the best deals ...
+"
+				/>
+				<meta
+					name="keywords"
+					content="airasia, For Everyone, Flights, Hotels, Activities"
+				/>
+				<meta name="author" content="Hovah Yii" />
+				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<link
 					rel="stylesheet"
 					href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
