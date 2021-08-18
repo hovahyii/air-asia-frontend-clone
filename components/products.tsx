@@ -24,7 +24,7 @@ function Products() {
 
 	
 	return (
-		<div className="font-DMsans mt-10 ml-52 flex">
+		<div className="font-DMsans w-4/5 mt-10 ml-52 flex">
 			{Categories.slice(start, end).map((category) => (
 				<div>
 					<div delay-1000 key={category.id} className="circle-card-zoom ">

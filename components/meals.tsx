@@ -9,11 +9,10 @@ function FreeMeals() {
 			<div className="font-DMsans w-4/5 ml-44 mt-4 flex">
 				{Meals.map((meal) => (
 					<div className="border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg">
-						<div key={meal.id}>
-							<img
-								className="rounded h-44 object-cover w-full"
-								src={meal.image}
-							/>
+						<div className="card-zoom">
+							<div key={meal.id}>
+								<img className="card-zoom-image" src={meal.image} />
+							</div>
 						</div>
 						<div className="m-5">
 							<h1 className="">{meal.title}</h1>

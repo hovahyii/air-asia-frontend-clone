@@ -9,8 +9,8 @@ function Travel() {
 			<div className="font-DMsans w-4/5 ml-44 mt-4 flex">
 				{Travels.map((travel) => (
 					<div className=" border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg">
-						<div key={travel.id}>
-							<img className="rounded object-cover" src={travel.image} />
+						<div key={travel.id} className="card-zoom">
+							<img className="card-zoom-image" src={travel.image} />
 						</div>
 						<div className="m-5">
 							<h1 className="">{travel.title}</h1>

@@ -6,6 +6,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.0",
     "@types/node": "^16.4.6",
     "@types/react": "^17.0.15",
     "all": "^0.0.0",

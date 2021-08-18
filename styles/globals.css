@@ -34,10 +34,21 @@
 }
 
 .circle-card-zoom-image {
-  @apply absolute w-28 h-28 transition-all items-center justify-center  duration-500 ease-in-out transform bg-center bg-cover rounded-full;
+  @apply absolute w-28 h-28 transition-all items-center justify-center duration-500 ease-in-out transform bg-center bg-cover rounded-full;
 }
 
 .circle-card-zoom:hover .circle-card-zoom-image {
-  @apply scale-150;
+  @apply scale-110 transition duration-300 ease-in-out	;
 }
 
+.card-zoom {
+  @apply relative items-center justify-center overflow-hidden shadow-xl w-full h-44   rounded  ;
+}
+
+.card-zoom-image {
+  @apply absolute rounded  object-cover w-full h-full transition-all items-center justify-center  duration-500 ease-in-out transform object-center;
+}
+
+.card-zoom:hover .card-zoom-image {
+  @apply scale-110  transition duration-300 ease-in-out	;
+}

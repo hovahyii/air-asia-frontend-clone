@@ -23,11 +23,10 @@ function Delivery() {
 			<div className="font-DMsans w-4/5 ml-44 mt-4 flex">
 				{Beauty.slice(start, end).map((beauty) => (
 					<div className=" border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg ">
-						<div key={beauty.id}>
-							<img
-								className="rounded object-cover h-44 w-full"
-								src={beauty.image}
-							/>
+						<div className="card-zoom">
+							<div key={beauty.id}>
+								<img className=" card-zoom-image " src={beauty.image} />
+							</div>
 						</div>
 						<div className="m-5">
 							<h1 className="">{beauty.title}</h1>

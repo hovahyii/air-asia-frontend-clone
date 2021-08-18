@@ -2,22 +2,21 @@ import fresh from "../data/fresh.json"
 import React, {useState, useEffect} from "react"
 
 function Fresh() {
+	const [start, setStart] = useState(0)
+	const [end, setEnd] = useState(4)
+	const [show, setShow] = useState(true)
 
-		const [start, setStart] = useState(0)
-		const [end, setEnd] = useState(4)
-		const [show, setShow] = useState(true)
+	const showNextItems = () => {
+		setStart((prevValue) => prevValue + 3)
+		setEnd((prevValue) => prevValue + 3)
+		setShow((show) => !show)
+	}
 
-		const showNextItems = () => {
-			setStart((prevValue) => prevValue + 3)
-			setEnd((prevValue) => prevValue + 3)
-			setShow((show) => !show)
-		}
-
-		const showPreviousItems = () => {
-			setStart((nextValue) => nextValue - 3)
-			setEnd((nextValue) => nextValue - 3)
-			setShow((show) => !show)
-		}
+	const showPreviousItems = () => {
+		setStart((nextValue) => nextValue - 3)
+		setEnd((nextValue) => nextValue - 3)
+		setShow((show) => !show)
+	}
 
 	return (
 		<>
@@ -26,15 +25,14 @@ function Fresh() {
 				{fresh.slice(start, end).map((fresh) => (
 					<div
 						key={fresh.id}
-						className="border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg hover:shadow-lg"
+						className="border-solid border-2 rounded w-80 mr-3 hover:shadow-lg hover:shadow-lg"
 					>
-						<label className="text-xs bg-red-100 text-red-500 p-0.8 text-center pl-1 pr-2 m-2 absolute">
+						<label className="text-xs bg-red-100 text-red-500 p-0.8 text-center z-10 pl-1 pr-2 m-2 absolute">
 							{fresh.label}
 						</label>
-						<img
-							className="rounded h-44 object-cover w-full"
-							src={fresh.image}
-						/>
+						<div className="card-zoom">
+							<img className="card-zoom-image" src={fresh.image} />
+						</div>
 
 						<div className="m-5">
 							<h1 className="">{fresh.title}</h1>
