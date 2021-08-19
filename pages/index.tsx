@@ -13,7 +13,7 @@ import Travel from "../components/travel"
 import Footer from "../components/main/footer"
 
 export default function Home() {
-  return (
+	return (
 		<div className="overflow-x-hidden w-full">
 			<Head>
 				<title>
@@ -51,18 +51,18 @@ export default function Home() {
 					rel="stylesheet"
 				></link>
 			</Head>
-			<Navbar />
-			<Categories />
-			<Slides />
-			<Products />
-			<Delivery />
-			<Beauty />
-			<FreeMeals />
-			<Fresh />
-			<Hotels />
-			<Ikhlas />
-			<Travel />
-			<Footer />
+				<Navbar />
+				<Categories />
+				<Slides />
+				<Products />
+				<Delivery />
+				<Beauty />
+				<FreeMeals />
+				<Fresh />
+				<Hotels />
+				<Ikhlas />
+				<Travel />
+				<Footer />
 		</div>
 	)
 }

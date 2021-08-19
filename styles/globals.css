@@ -52,3 +52,4 @@
 .card-zoom:hover .card-zoom-image {
   @apply scale-110  transition duration-300 ease-in-out	;
 }
+
