@@ -11,10 +11,18 @@ import Hotels from "../components/hotels"
 import Ikhlas from "../components/ikhlas"
 import Travel from "../components/travel"
 import Footer from "../components/main/footer"
+import React, {useState} from "react"
 
-export default function Home() {
+export default function Home(props) {
+
 	return (
-		<div className="overflow-x-hidden w-full">
+		<div
+			className={
+				props.isOpen
+					? "overflow-x-hidden w-full bg-gray-400 "
+					: "overflow-x-hidden w-full"
+			}
+		>
 			<Head>
 				<title>
 					airasia | For Everyone | Flights, Hotels, Activities &amp; More
@@ -51,18 +59,19 @@ export default function Home() {
 					rel="stylesheet"
 				></link>
 			</Head>
-				<Navbar />
-				<Categories />
-				<Slides />
-				<Products />
-				<Delivery />
-				<Beauty />
-				<FreeMeals />
-				<Fresh />
-				<Hotels />
-				<Ikhlas />
-				<Travel />
-				<Footer />
+			<Navbar />
+			<Categories />
+
+			<Slides />
+			<Products />
+			<Delivery />
+			<Beauty />
+			<FreeMeals />
+			<Fresh />
+			<Hotels />
+			<Ikhlas />
+			<Travel />
+			<Footer />
 		</div>
 	)
 }

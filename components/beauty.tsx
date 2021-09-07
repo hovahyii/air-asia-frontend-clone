@@ -19,8 +19,10 @@ function Delivery() {
 	}
 	return (
 		<>
-			<h1 className="font-DMsans text-2xl	text-gray-800 mt-10 ml-44">Beauty</h1>
-			<div className="font-DMsans w-4/5 ml-44 mt-4 flex">
+			<h1 className="font-DMsans text-2xl	text-gray-800 mt-10 ml-44 xl:w-5/6 xl:ml-24 lg:w-11/12  lg:ml-12 ">
+				Beauty
+			</h1>
+			<div className="font-DMsans w-4/5 ml-44 mt-4 flex xl:w-5/6 xl:ml-24  lg:w-11/12  lg:ml-12">
 				{Beauty.slice(start, end).map((beauty) => (
 					<div className=" border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg ">
 						<div className="card-zoom">

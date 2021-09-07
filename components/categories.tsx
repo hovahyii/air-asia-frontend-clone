@@ -2,31 +2,34 @@ import Image from "next/image"
 import {Dialog, Transition} from "@headlessui/react"
 import {Fragment, useState} from "react"
 
-const Categories = (props) => {
+const Categories = () => {
+
 	let [isOpen, setIsOpen] = useState(false)
 
-	const statusClass = isOpen ? "show border" : "hidden"
+	const statusClass = isOpen
+		? "show border  xl:w-5/6 xl:ml-24 lg:w-11/12  lg:ml-12"
+		: "hidden"
 
 	return (
 		<>
 			<div
 				className={
 					isOpen
-						? "font-DMsans border	 z-0 mt-6 ml-52 flex w-3/4 bg-white flex justify-center shadow-lg	"
-						: "font-DMsans  z-0 mt-6 ml-52 flex w-3/4 bg-white flex justify-center"
+						? "font-DMsans border z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center shadow-lg  xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12  lg:ml-12"
+						: "font-DMsans z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12 lg:ml-12"
 				}
 			>
 				<a href="" className="pr-12">
-					<label className="grid-rows-1 text-xs bg-red-100 text-red-500 p-0.8 text-center absolute -mt-2 pl-1 pr-1">
+					<label className="grid-rows-1 text-xs bg-red-100 text-red-500 p-0.8 text-center absolute -mt-2 pl-1 pr-1 ">
 						FREE DEL
 					</label>
 					<div className="grid-rows-2	flex mt-4">
-						<Image
+						<img
 							className="justify-center"
-							src="misc/product-tiles/ourfood_flat.svg"
+							src="https://a.staticaa.com/images/misc/product-tiles/ourfood_flat.svg"
 							width="30"
 							height="30"
-						></Image>
+						></img>
 						<p className="p-3">Food</p>
 					</div>
 				</a>
@@ -35,12 +38,12 @@ const Categories = (props) => {
 						Penang2U
 					</label>
 					<div className="grid-rows-2	flex mt-4">
-						<Image
+						<img
 							className="justify-center"
-							src="misc/product-tiles/fresh_flat.svg"
+							src="https://a.staticaa.com/images/misc/product-tiles/fresh_flat.svg"
 							width="30"
 							height="30"
-						></Image>
+						></img>
 						<p className="p-3">Fresh</p>
 					</div>
 				</a>
@@ -49,12 +52,12 @@ const Categories = (props) => {
 						RM50 OFF
 					</label>
 					<div className="grid-rows-2	flex mt-4">
-						<Image
+						<img
 							className="justify-center"
-							src="misc/app/product-tiles/beauty_flat.svg"
+							src="https://a.staticaa.com/images/misc/app/product-tiles/beauty_flat.svg"
 							width="30"
 							height="30"
-						></Image>
+						></img>
 						<p className="p-3">Beauty</p>
 					</div>
 				</a>
@@ -63,27 +66,27 @@ const Categories = (props) => {
 						DEALS!
 					</label>
 					<div className="grid-rows-2	flex mt-4">
-						<Image
+						<img
 							className="justify-center"
-							src="misc/product-tiles/money_flat.svg"
+							src="https://a.staticaa.com/images/misc/product-tiles/money_flat.svg"
 							width="30"
 							height="30"
-						></Image>
+						></img>
 						<p className="p-3">Money</p>
 					</div>
 				</a>
 				<a href="" className="pr-8">
 					<div className="grid-rows-2	flex mt-4 ">
-						<Image
+						<img
 							className="justify-center"
-							src="misc/product-tiles/hotel_flat.svg"
+							src="https://a.staticaa.com/images/misc/product-tiles/hotel_flat.svg"
 							width="30"
 							height="30"
-						></Image>
+						></img>
 						<p className="p-2">Hotels</p>
 					</div>
 				</a>
-				<a href="" className="pr-8">
+				<a href="" className="pr-8 lg:hidden">
 					<div className="grid-rows-2	flex mt-4">
 						<img
 							className="justify-center"
@@ -94,14 +97,14 @@ const Categories = (props) => {
 						<p className="p-2">BigXchange</p>
 					</div>
 				</a>
-				<a href="" className="pr-8">
+				<a href="" className="pr-8 lg:hidden">
 					<div className="grid-rows-2	flex mt-4">
-						<Image
+						<img
 							className="justify-center"
-							src="misc/product-tiles/flight_flat.svg"
+							src="https://a.staticaa.com/images/misc/product-tiles/flight_flat.svg"
 							width="30"
 							height="30"
-						></Image>
+						></img>
 						<p className="p-2">Flight</p>
 					</div>
 				</a>
@@ -124,12 +127,12 @@ const Categories = (props) => {
 				<div className="flex ">
 					<a href="" className="pr-16 pl-12">
 						<div className="grid-rows-2	flex mt-7">
-							<Image
+							<img
 								className="justify-center"
-								src="/misc/app/product-tiles/redbeat_flat-20210602.svg"
+								src="https://a.staticaa.com/images/misc/app/product-tiles/redbeat_flat-20210602.svg"
 								width="30"
 								height="30"
-							></Image>
+							></img>
 							<p className="p-4 ">Academy</p>
 						</div>
 					</a>
@@ -138,45 +141,45 @@ const Categories = (props) => {
 							DEALS!
 						</label>
 						<div className="grid-rows-2	flex mt-7">
-							<Image
+							<img
 								className="justify-center"
-								src="/misc/product-tiles/money_flat.svg"
+								src="https://a.staticaa.com/images/misc/product-tiles/money_flat.svg"
 								width="30"
 								height="30"
-							></Image>
+							></img>
 							<p className="p-4">Money</p>
 						</div>
 					</a>
 					<a href="" className="pr-16 pl-4">
 						<div className="grid-rows-2	flex mt-7">
-							<Image
+							<img
 								className="justify-center"
-								src="/misc/product-tiles/health_flat.svg"
+								src="https://a.staticaa.com/images/misc/product-tiles/health_flat.svg"
 								width="30"
 								height="30"
-							></Image>
+							></img>
 							<p className="p-4">Health</p>
 						</div>
 					</a>
 					<a href="" className="pr-16 pl-4">
 						<div className="grid-rows-2	flex mt-7">
-							<Image
+							<img
 								className="justify-center"
-								src="/misc/product-tiles/ikhlas-flat.svg"
+								src="https://a.staticaa.com/images/misc/product-tiles/ikhlas-flat.svg"
 								width="30"
 								height="30"
-							></Image>
+							></img>
 							<p className="p-4">Ikhlas</p>
 						</div>
 					</a>
 					<a href="" className="pr-16 pl-4">
 						<div className="grid-rows-2	flex mt-7">
-							<Image
+							<img
 								className="justify-center"
-								src="/misc/product-tiles/ourshop_flat.svg"
+								src="https://a.staticaa.com/images/misc/product-tiles/ourshop_flat.svg"
 								width="30"
 								height="30"
-							></Image>
+							></img>
 							<p className="p-4">Shop</p>
 						</div>
 					</a>
@@ -195,26 +198,27 @@ const Categories = (props) => {
 					</a>
 					<a href="" className="pr-8 pl-4">
 						<div className="grid-rows-2	flex mt-7">
-							<Image
+							<img
 								className="justify-center"
-								src="/misc/product-tiles/deals_flat.svg"
+								src="https://a.staticaa.com/images/misc/product-tiles/deals_flat.svg"
 								width="30"
 								height="30"
-							></Image>
+							></img>
 							<p className="p-4">Unlimited</p>
 						</div>
 					</a>
 					<a href="" className="pr-16 pl-4">
 						<div className="grid-rows-2	flex mt-7">
-							<Image
+							<img
 								className="justify-center"
-								src="/misc/product-tiles/explore_flat.svg"
+								src="https://a.staticaa.com/images/misc/product-tiles/explore_flat.svg"
 								width="30"
 								height="30"
-							></Image>
+							></img>
 							<p className="p-4">Explore</p>
 						</div>
 					</a>
+		
 				</div>
 			</div>
 		</>

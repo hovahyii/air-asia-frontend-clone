@@ -15,8 +15,21 @@ const NavBar = () => {
 		: "border-0	text-gray-500 "
 
 	return (
-		<nav className="font-DMsans flex flex-col text-center content-center sm:flex-row sm:text-left sm:justify-between py-2 px-10 bg-white sm:items-baseline w-full">
-			<div className="flex items-center flex-shrink-0 mr-6  px-10">
+		<nav className="font-DMsans text-center content-center px-16 bg-white  lg:border lg:w-full lg:h-14 lg:shadow-xl	lg:grid lg:justify-items-stretch 	">
+			<div className="lg:absolute lg:justify-self-start lg:visible xl:invisible 2xl:invisible">
+				<div className=" lg:pt-4 lg:pb-2 ">
+					<a
+						href="#"
+						className="inline-flex  text-md no-underline  hover:text-gray-500 mr-2 px-2"
+					>
+						<p className="mr-2">
+							<i className="fa fa-bars fa-lg"></i>
+						</p>
+					</a>
+				</div>
+			</div>
+
+			<div className="flex items-center flex-shrink-0 float-left  lg:absolute lg:justify-self-center lg:pt-0 ">
 				<Image
 					src="logos/airasiacom_logo.svg"
 					width="150"
@@ -25,7 +38,20 @@ const NavBar = () => {
 				/>
 			</div>
 
-			<ul className="px-10 flex self-center">
+			<div className="lg:absolute lg:justify-self-end	lg:visible xl:invisible 2xl:invisible">
+				<div className=" lg:pt-4 lg:pb-2 ">
+					<a
+						href="#"
+						className="inline-flex  text-md no-underline text-red-500 hover:text-gray-500 mr-2 px-2"
+					>
+						<p className="mr-2">
+							<i className="fa fa-user-circle fa-lg"></i>
+						</p>
+					</a>
+				</div>
+			</div>
+
+			<ul className="flex  float-right    lg:hidden">
 				<li className=" pt-2 pb-2">
 					<a
 						className="text-md no-underline text-gray-500 hover:text-red-500 ml-2 px-2"
@@ -146,7 +172,7 @@ const NavBar = () => {
 					</Menu>
 				</li>
 
-				<li className=" pt-2 pb-2">
+				<li className=" pt-2 pb-2 ">
 					<a
 						href="#"
 						className="inline-flex  text-md no-underline text-red-500 hover:text-gray-500 mr-2 px-2"

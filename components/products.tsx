@@ -24,7 +24,7 @@ function Products() {
 
 	
 	return (
-		<div className="font-DMsans w-4/5 mt-10 ml-52 flex">
+		<div className="font-DMsans w-4/5 mt-10 ml-52 flex xl:w-full xl:ml-14 lg:w-full">
 			{Categories.slice(start, end).map((category) => (
 				<div>
 					<div delay-1000 key={category.id} className="circle-card-zoom ">
@@ -37,7 +37,7 @@ function Products() {
 			{show ? (
 				<button
 					onClick={showNextItems}
-					className="border-2	border-gray-100 rounded w-8 h-8 shadow-lg mt-14 float-right  -mx-2 bg-white"
+					className="border-2	border-gray-100 rounded w-8 h-8 shadow-lg mt-14 float-right -mx-2 bg-white"
 				>
 					<div>
 						<div className="object-center ">

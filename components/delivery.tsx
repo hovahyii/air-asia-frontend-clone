@@ -3,10 +3,10 @@ import Deliveries from "../data/deliveries.json"
 function Delivery() {
 	return (
 		<>
-			<h1 className="font-DMsans text-2xl	text-gray-800 uppercase mt-10 ml-44">
+			<h1 className="font-DMsans text-2xl	text-gray-800 uppercase mt-10 ml-44 xl:w-11/12 xl:ml-14">
 				free delivery
 			</h1>
-			<div className="font-DMsans w-4/5 ml-44 mt-4 flex">
+			<div className="font-DMsans w-4/5 ml-44 mt-4 flex xl:w-11/12 xl:ml-14 ">
 				{Deliveries.map((delivery) => (
 					<div className=" border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg ">
 						<div className="card-zoom">

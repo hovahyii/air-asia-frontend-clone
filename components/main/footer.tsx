@@ -3,13 +3,13 @@ import Image from "next/image"
 const Footer = () => {
 	return (
 		<>
-			<section className=" bg-gray-50	font-DMsans mt-20 w-full">
-				<div className="ml-28 flex">
+			<section className=" bg-gray-50	font-DMsans mt-20 w-full sm:md:overflow-x-scroll">
+				<div className="ml-28 flex  sm:md:ml-4">
 					<h1 className="mt-8 mb-8 text-3xl text-gray-600 ">
 						Book your Flights, Hotels &amp; SNAP
 					</h1>
 				</div>
-				<hr className="ml-28  w-5/6" />
+				<hr className="ml-28  w-5/6 sm:md:ml-4"/>
 				<div className="grid grid-rows-3 grid-flow-col gap-24 ml-28 mt-8 w-4/5 mb-8 text-xs	text-gray-500">
 					<ul className="row-start-1 row-end-4	">
 						<li className="mb-2	">
