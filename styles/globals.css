@@ -22,6 +22,13 @@
   }
 }
 
+@media screen and (max-width: 639px) {
+  .dots {
+    padding: 150px 280px;
+  }
+}
+
+
 
 .dot {
   border: none;
@@ -43,11 +50,11 @@
 }
 
 .circle-card-zoom {
-  @apply relative items-center justify-center overflow-hidden shadow-xl w-28 h-28 rounded-full  m-5 lg:w-24 lg:h-24 lg:m-2 md:ml-16 ;
+  @apply relative items-center justify-center overflow-hidden shadow-xl w-28 h-28 rounded-full  m-5 lg:w-24 lg:h-24 lg:m-2 md:ml-16 sm:ml-8 sm:w-28 sm:h-28;
 }
 
 .circle-card-zoom-image {
-  @apply absolute w-28 h-28 transition-all items-center justify-center duration-500 ease-in-out transform bg-center bg-cover rounded-full lg:w-24 lg:h-24;
+  @apply absolute w-28 h-28 transition-all items-center justify-center duration-500 ease-in-out transform bg-center bg-cover rounded-full lg:w-24 lg:h-24  sm:w-28 sm:h-28;
 
 }
 

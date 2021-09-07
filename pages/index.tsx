@@ -13,15 +13,9 @@ import Travel from "../components/travel"
 import Footer from "../components/main/footer"
 import React, {useState} from "react"
 
-export default function Home(props) {
+export default function Home() {
 	return (
-		<div
-			className={
-				props.isOpen
-					? "overflow-x-hidden w-full bg-gray-400 "
-					: "overflow-x-hidden w-full"
-			}
-		>
+		<div className="overflow-x-hidden absolute w-screen ">
 			<Head>
 				<title>
 					airasia | For Everyone | Flights, Hotels, Activities &amp; More
@@ -60,14 +54,14 @@ export default function Home(props) {
 			<Categories />
 
 			<Slides />
-				<Products />
-				<Delivery />
-				<Beauty />
-				<FreeMeals />
-				<Fresh />
-				<Hotels />
-				<Ikhlas />
-				<Travel />
+			<Products />
+			<Delivery />
+			<Beauty />
+			<FreeMeals />
+			<Fresh />
+			<Hotels />
+			<Ikhlas />
+			<Travel />
 			<Footer />
 
 			<div className="md:visible lg:invisible xl:invisible 2xl:invisible bg-white w-full  h-20 px-6 py-2 flex justify-between text-gray-font fixed bottom-0 shadow-lg z-10 border-t border-gray-99">

@@ -16,21 +16,21 @@ const Categories = () => {
 				className={
 					isOpen
 						? "font-DMsans border z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center shadow-lg  xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12  lg:ml-12"
-						: "font-DMsans z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12 lg:ml-12"
+						: "font-DMsans z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12 lg:ml-12 sm:grid sm:grid-cols-4 sm:gap-4 "
 				}
 			>
-				<a href="" className="pr-12">
+				<a href="" className="pr-12 sm:justify-items-center	">
 					<label className="grid-rows-1 text-xs bg-red-100 text-red-500 p-0.8 text-center absolute -mt-2 pl-1 pr-1 ">
 						FREE DEL
 					</label>
-					<div className="grid-rows-2	flex mt-4">
+					<div className="grid-rows-2	flex mt-4 ">
 						<img
-							className="justify-center"
+							className="justify-center "
 							src="https://a.staticaa.com/images/misc/product-tiles/ourfood_flat.svg"
 							width="30"
 							height="30"
 						></img>
-						<p className="p-3">Food</p>
+						<p className="p-3 ">Food</p>
 					</div>
 				</a>
 				<a href="" className="pr-8">
@@ -75,7 +75,7 @@ const Categories = () => {
 						<p className="p-3">Money</p>
 					</div>
 				</a>
-				<a href="" className="pr-8 md:hidden">
+				<a href="" className="pr-8 md:invisible  sm:visible">
 					<div className="grid-rows-2	flex mt-4 ">
 						<img
 							className="justify-center"
@@ -86,7 +86,7 @@ const Categories = () => {
 						<p className="p-2">Hotels</p>
 					</div>
 				</a>
-				<a href="" className="pr-8 lg:hidden">
+				<a href="" className="pr-8 lg:invisible  sm:visible">
 					<div className="grid-rows-2	flex mt-4">
 						<img
 							className="justify-center"
@@ -97,7 +97,7 @@ const Categories = () => {
 						<p className="p-2">BigXchange</p>
 					</div>
 				</a>
-				<a href="" className="pr-8 lg:hidden">
+				<a href="" className="pr-8 lg:invisible  sm:visible">
 					<div className="grid-rows-2	flex mt-4">
 						<img
 							className="justify-center"
@@ -218,7 +218,6 @@ const Categories = () => {
 							<p className="p-4">Explore</p>
 						</div>
 					</a>
-		
 				</div>
 			</div>
 		</>

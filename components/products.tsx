@@ -25,13 +25,13 @@ function Products() {
 	
 	return (
 		<>
-			<div className="font-DMsans w-4/5 mt-10 ml-52 flex xl:w-full xl:ml-14 lg:w-full ">
+			<div className="font-DMsans w-4/5 mt-10 ml-52 flex xl:w-full xl:ml-14 lg:w-full sm:ml-2 sm:w-full">
 				{Categories.slice(start, end).map((category) => (
 					<div>
 						<div delay-1000 key={category.id} className="circle-card-zoom ">
 							<img src={category.image} className="circle-card-zoom-image" />
 						</div>
-						<p className="text-center m-2 text-xs md:m-0 md:ml-12">
+						<p className="text-center m-2 text-xs md:m-0 md:ml-12 sm:ml-2">
 							{category.title}
 						</p>
 					</div>
