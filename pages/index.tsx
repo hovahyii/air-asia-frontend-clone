@@ -50,7 +50,7 @@ export default function Home() {
 					rel="stylesheet"
 				></link>
 			</Head>
-			<div className="overflow-x-hidden absolute w-screen">
+			<div className="overflow-x-hidden relative  w-screen">
 				<Navbar />
 				<Categories />
 
