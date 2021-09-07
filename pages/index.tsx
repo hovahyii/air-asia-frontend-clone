@@ -15,13 +15,13 @@ import React, {useState} from "react"
 
 export default function Home() {
 	return (
-		<div className="overflow-x-hidden  w-screen ">
+		<>
 			<Head>
 				<title>
 					airasia | For Everyone | Flights, Hotels, Activities &amp; More
 				</title>
 				<meta charSet="UTF-8" />
-				<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta
 					property="og:title"
 					content="airasia | For Everyone | Flights, Hotels, Activities &amp; More"
@@ -50,67 +50,69 @@ export default function Home() {
 					rel="stylesheet"
 				></link>
 			</Head>
-			<Navbar />
-			<Categories />
+			<div className="overflow-x-hidden absolute w-screen">
+				<Navbar />
+				<Categories />
 
-			<Slides />
-			<Products />
-			<Delivery />
-			<Beauty />
-			<FreeMeals />
-			<Fresh />
-			<Hotels />
-			<Ikhlas />
-			<Travel />
-			<Footer />
+				<Slides />
+				<Products />
+				<Delivery />
+				<Beauty />
+				<FreeMeals />
+				<Fresh />
+				<Hotels />
+				<Ikhlas />
+				<Travel />
+				<Footer />
 
-			<div className="md:visible lg:invisible xl:invisible 2xl:invisible bg-white w-full  h-20 px-6 py-2 flex justify-between text-gray-font fixed bottom-0 shadow-lg z-10 border-t border-gray-99">
-				<a href="/">
-					<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm  flex flex-col items-center text-center text-primary">
-						<img
-							src="https://a.staticaa.com/images/logos/airasiacom_monogram.svg"
-							className="w-8 fas fa-home p-1"
-						></img>
-						<span className="mx-1 font-roboto">Home</span>
-					</span>
-				</a>
-				<a href="/">
-					<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm  flex flex-col items-center text-center text-primary">
-						<img
-							src="https://a.staticaa.com/images/misc/product-tiles/ic-explore-default.svg"
-							className="w-8 fas fa-home p-1"
-						></img>
-						<span className="mx-1 font-roboto">Explore</span>
-					</span>
-				</a>
-				<a href="/">
-					<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm  flex flex-col items-center text-center text-primary">
-						<img
-							src="https://a.staticaa.com/images/misc/product-tiles/ic-bookings-default.svg"
-							className="w-8 fas fa-home p-1"
-						></img>
-						<span className="mx-1 font-roboto">My Bookings</span>
-					</span>
-				</a>
-				<a href="/">
-					<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm  flex flex-col items-center text-center">
-						<img
-							src="https://a.staticaa.com/images/misc/product-tiles/ic-checkin-default.svg"
-							className="w-8 fas fa-home p-1"
-						></img>
-						<span className="mx-1 font-roboto">Check-in</span>
-					</span>
-				</a>
-				<a href="/">
-					<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm   flex flex-col items-center text-center">
-						<img
-							src="https://a.staticaa.com/images/misc/product-tiles/ic-chat-default.svg"
-							className="w-8 fas fa-home p-1"
-						></img>
-						<span className="mx-1 font-roboto">Support</span>
-					</span>
-				</a>
-			</div>
-		</div>
+				<div className="md:visible lg:invisible xl:invisible 2xl:invisible bg-white w-full  h-20 px-6 py-2 flex justify-between text-gray-font fixed bottom-0 shadow-lg z-10 border-t border-gray-99">
+					<a href="/">
+						<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm  flex flex-col items-center text-center text-primary">
+							<img
+								src="https://a.staticaa.com/images/logos/airasiacom_monogram.svg"
+								className="w-8 fas fa-home p-1"
+							></img>
+							<span className="mx-1 font-roboto sm:text-xs">Home</span>
+						</span>
+					</a>
+					<a href="/">
+						<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm  flex flex-col items-center text-center text-primary">
+							<img
+								src="https://a.staticaa.com/images/misc/product-tiles/ic-explore-default.svg"
+								className="w-8 fas fa-home p-1"
+							></img>
+							<span className="mx-1 font-roboto sm:text-xs">Explore</span>
+						</span>
+					</a>
+					<a href="/">
+						<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm  flex flex-col items-center text-center text-primary">
+							<img
+								src="https://a.staticaa.com/images/misc/product-tiles/ic-bookings-default.svg"
+								className="w-8 fas fa-home p-1"
+							></img>
+							<span className="mx-1 font-roboto sm:text-xs">My Bookings</span>
+						</span>
+					</a>
+					<a href="/">
+						<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm  flex flex-col items-center text-center">
+							<img
+								src="https://a.staticaa.com/images/misc/product-tiles/ic-checkin-default.svg"
+								className="w-8 fas fa-home p-1"
+							></img>
+							<span className="mx-1 font-roboto sm:text-xs">Check-in</span>
+						</span>
+					</a>
+					<a href="/">
+						<span className="px-2 py-1 cursor-pointer hover:bg-gray-200 hover:text-gray-700 text-sm   flex flex-col items-center text-center">
+							<img
+								src="https://a.staticaa.com/images/misc/product-tiles/ic-chat-default.svg"
+								className="w-8 fas fa-home p-1"
+							></img>
+							<span className="mx-1 font-roboto sm:text-xs">Support</span>
+						</span>
+					</a>
+				</div>
+			</div>{" "}
+		</>
 	)
 }

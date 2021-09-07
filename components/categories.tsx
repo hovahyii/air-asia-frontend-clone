@@ -15,8 +15,8 @@ const Categories = () => {
 			<div
 				className={
 					isOpen
-						? "font-DMsans border z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center shadow-lg  xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12  lg:ml-12"
-						: "font-DMsans z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12 lg:ml-12 sm:grid sm:grid-cols-4 sm:gap-4 "
+						? "font-DMsans border z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center shadow-lg   xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12  lg:ml-12"
+						: "font-DMsans z-0 mt-24 ml-52 flex w-3/4 bg-white flex justify-center lg:w-5/6 xl:w-5/6 xl:ml-24 lg:mt-12 lg:w-11/12 lg:ml-24 sm:grid sm:grid-cols-4 sm:gap-2 sm:ml-4"
 				}
 			>
 				<a href="" className="pr-12 sm:justify-items-center	">
@@ -25,7 +25,7 @@ const Categories = () => {
 					</label>
 					<div className="grid-rows-2	flex mt-4 ">
 						<img
-							className="justify-center "
+							className="justify-center"
 							src="https://a.staticaa.com/images/misc/product-tiles/ourfood_flat.svg"
 							width="30"
 							height="30"
@@ -75,7 +75,7 @@ const Categories = () => {
 						<p className="p-3">Money</p>
 					</div>
 				</a>
-				<a href="" className="pr-8 md:invisible  sm:visible">
+				<a href="" className="pr-8 md:invisible sm:visible">
 					<div className="grid-rows-2	flex mt-4 ">
 						<img
 							className="justify-center"
@@ -86,8 +86,8 @@ const Categories = () => {
 						<p className="p-2">Hotels</p>
 					</div>
 				</a>
-				<a href="" className="pr-8 lg:invisible  sm:visible">
-					<div className="grid-rows-2	flex mt-4">
+				<a href="" className="pr-8 sm:visible lg:hidden ">
+					<div className="grid-rows-2  flex mt-4">
 						<img
 							className="justify-center"
 							src="https://images.contentstack.io/v3/assets/blt81780e535e9d8b2b/blt584dab4dbeb10179/60b9a4f24d715a2522583933/azd4y-nlgmx.svg"
@@ -97,8 +97,8 @@ const Categories = () => {
 						<p className="p-2">BigXchange</p>
 					</div>
 				</a>
-				<a href="" className="pr-8 lg:invisible  sm:visible">
-					<div className="grid-rows-2	flex mt-4">
+				<a href="" className="pr-8 sm:visible  lg:hidden ">
+					<div className="grid-rows-2 flex mt-4">
 						<img
 							className="justify-center"
 							src="https://a.staticaa.com/images/misc/product-tiles/flight_flat.svg"
