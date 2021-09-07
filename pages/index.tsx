@@ -15,7 +15,7 @@ import React, {useState} from "react"
 
 export default function Home() {
 	return (
-		<div className="overflow-x-hidden absolute w-screen ">
+		<div className="overflow-x-hidden  w-screen ">
 			<Head>
 				<title>
 					airasia | For Everyone | Flights, Hotels, Activities &amp; More
