@@ -15,7 +15,7 @@ const NavBar = () => {
 		: "border-0	text-gray-500 "
 
 	return (
-		<nav className="font-DMsans text-center content-center px-16 bg-white  lg:border lg:w-full lg:h-14 lg:shadow-xl	lg:grid lg:justify-items-stretch 	">
+		<nav className="font-DMsans text-center content-center px-16 lg:px-4 bg-white  lg:border lg:w-full lg:h-14 lg:shadow-xl	lg:grid lg:justify-items-stretch 	">
 			<div className="lg:absolute lg:justify-self-start lg:visible xl:invisible 2xl:invisible">
 				<div className=" lg:pt-4 lg:pb-2 ">
 					<a
@@ -51,7 +51,7 @@ const NavBar = () => {
 				</div>
 			</div>
 
-			<ul className="flex  float-right    lg:hidden">
+			<ul className="flex  float-right   lg:hidden">
 				<li className=" pt-2 pb-2">
 					<a
 						className="text-md no-underline text-gray-500 hover:text-red-500 ml-2 px-2"

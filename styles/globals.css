@@ -2,13 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .dots {
   padding: 250px 600px;
   justify-content: center;
   display: flex;
   position: absolute;
 }
+
+@media screen and (max-width: 1023px) {
+  .dots {
+    padding: 250px 420px;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .dots {
+    padding: 250px 340px;
+  }
+}
+
 
 .dot {
   border: none;
@@ -30,7 +43,7 @@
 }
 
 .circle-card-zoom {
-  @apply relative items-center justify-center overflow-hidden shadow-xl w-28 h-28 rounded-full md:w-20 md:h-20 m-5 lg:w-24 lg:h-24 lg:m-2 ;
+  @apply relative items-center justify-center overflow-hidden shadow-xl w-28 h-28 rounded-full  m-5 lg:w-24 lg:h-24 lg:m-2 md:ml-16 ;
 }
 
 .circle-card-zoom-image {
@@ -43,7 +56,7 @@
 }
 
 .card-zoom {
-  @apply relative items-center justify-center overflow-hidden shadow-xl w-full h-44 rounded;
+  @apply relative items-center justify-center overflow-hidden shadow-xl w-full h-44  rounded;
 }
 
 .card-zoom-image {

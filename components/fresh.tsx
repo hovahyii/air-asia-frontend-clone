@@ -27,7 +27,7 @@ function Fresh() {
 				{fresh.slice(start, end).map((fresh) => (
 					<div
 						key={fresh.id}
-						className="border-solid border-2 rounded w-80 mr-3 hover:shadow-lg hover:shadow-lg"
+						className="border-solid border-2 rounded w-full mr-3 hover:shadow-lg hover:shadow-lg"
 					>
 						<label className="text-xs bg-red-100 text-red-500 p-0.8 text-center z-10 pl-1 pr-2 m-2 absolute">
 							{fresh.label}

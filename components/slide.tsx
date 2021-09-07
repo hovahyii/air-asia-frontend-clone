@@ -48,7 +48,7 @@ let onSizeChangeSetInterval: NodeJS.Timer
 		<>
 			<div
 				ref={sliderRef as React.RefObject<HTMLDivElement>}
-				className="keen-slider w-4/5 ml-44 mt-8  xl:w-11/12 xl:h-full xl:m-14 xl:mt-8 "
+				className="keen-slider w-4/5 ml-44 mt-8  xl:w-11/12 xl:h-full xl:m-14 xl:mt-8 md:w-full md:m-0 md:mt-8"
 			>
 				{slides.map((slide) => (
 					<div className="keen-slider__slide">
@@ -56,7 +56,7 @@ let onSizeChangeSetInterval: NodeJS.Timer
 							key={slide.id}
 							src={slide.image}
 							alt={slide.title}
-							className=" object-cover w-full h-72"
+							className="object-cover w-full h-72 "
 						></img>
 					</div>
 				))}

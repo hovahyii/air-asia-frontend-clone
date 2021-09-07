@@ -7,7 +7,7 @@ const Categories = () => {
 	let [isOpen, setIsOpen] = useState(false)
 
 	const statusClass = isOpen
-		? "show border  xl:w-5/6 xl:ml-24 lg:w-11/12  lg:ml-12"
+		? "show border xl:w-5/6 xl:ml-24 lg:w-11/12  lg:ml-12"
 		: "hidden"
 
 	return (
@@ -75,7 +75,7 @@ const Categories = () => {
 						<p className="p-3">Money</p>
 					</div>
 				</a>
-				<a href="" className="pr-8">
+				<a href="" className="pr-8 md:hidden">
 					<div className="grid-rows-2	flex mt-4 ">
 						<img
 							className="justify-center"

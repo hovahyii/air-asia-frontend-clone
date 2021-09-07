@@ -8,7 +8,7 @@ function Hotel() {
 			</h1>
 			<div className="font-DMsans w-4/5 ml-44 mt-4 flex xl:w-11/12 xl:ml-14">
 				{Hotels.map((hotel) => (
-					<div className="border-solid border-2 rounded-xl w-80 mr-3 hover:shadow-lg">
+					<div className="border-solid border-2 rounded-xl w-full mr-3 hover:shadow-lg">
 						<div key={hotel.id} className="card-zoom">
 							<img className="card-zoom-image" src={hotel.image} />
 						</div>
