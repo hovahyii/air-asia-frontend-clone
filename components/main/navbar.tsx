@@ -15,7 +15,7 @@ const NavBar = () => {
 		: "border-0	text-gray-500 "
 
 	return (
-		<nav className="font-DMsans text-center content-center px-16 lg:px-4 bg-white  lg:border lg:w-full lg:h-14 lg:shadow-xl	lg:grid lg:justify-items-stretch">
+		<nav className="font-DMsans text-center content-center px-16 lg:px-2 bg-white  lg:border lg:w-full lg:h-14 lg:shadow-xl	lg:grid lg:justify-items-stretch">
 			<div className="lg:absolute lg:justify-self-start lg:visible xl:invisible 2xl:invisible">
 				<div className=" lg:pt-4 lg:pb-2 ">
 					<a
