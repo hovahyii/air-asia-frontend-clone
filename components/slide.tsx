@@ -7,7 +7,7 @@ const Slides = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
 
   const [pause, setPause] = useState(false)
-let onSizeChangeSetInterval: NodeJS.Timer
+	let onSizeChangeSetInterval: NodeJS.Timer
 
   const [sliderRef, slider] = useKeenSlider({
 		loop: true,
