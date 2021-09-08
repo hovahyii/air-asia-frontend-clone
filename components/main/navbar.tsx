@@ -29,7 +29,7 @@ const NavBar = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center flex-shrink-0 float-left lg:absolute   lg:justify-self-center lg:pt-0 ">
+			<div className="flex items-center flex-shrink-0  lg:absolute lg:justify-self-center lg:pt-0 xl:float-left ">
 				<Image
 					src="/logos/airasiacom_logo.svg"
 					width="150"
