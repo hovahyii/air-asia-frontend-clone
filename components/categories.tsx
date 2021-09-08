@@ -1,6 +1,6 @@
 import Image from "next/image"
 import {Dialog, Transition} from "@headlessui/react"
-import {Fragment, useState} from "react"
+import React, {Fragment, useState} from "react"
 
 const Categories = () => {
 
@@ -86,7 +86,7 @@ const Categories = () => {
 						<p className="p-2">Hotels</p>
 					</div>
 				</a>
-				<a href="" className="pr-8 sm:visible lg:hidden ">
+				<a href="" className="pr-8  lg:visible xl:hidden ">
 					<div className="grid-rows-2  flex mt-4">
 						<img
 							className="justify-center"
@@ -97,7 +97,7 @@ const Categories = () => {
 						<p className="p-2">BigXchange</p>
 					</div>
 				</a>
-				<a href="" className="pr-8 sm:visible  lg:hidden ">
+				<a href="" className="pr-8 lg:visible xl:hidden  ">
 					<div className="grid-rows-2 flex mt-4">
 						<img
 							className="justify-center"
