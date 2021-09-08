@@ -51,7 +51,7 @@ const NavBar = () => {
 				</div>
 			</div>
 
-			<ul className="flex  float-right   lg:hidden">
+			<ul className="lg:invisible flex  float-right ">
 				<li className=" pt-2 pb-2">
 					<a
 						className="text-md no-underline text-gray-500 hover:text-red-500 ml-2 px-2"
