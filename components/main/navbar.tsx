@@ -16,7 +16,7 @@ const NavBar = () => {
 
 	return (
 		<nav className="font-DMsans text-center content-center px-16 lg:px-2 bg-white  lg:border lg:w-full lg:h-14 lg:shadow-xl	lg:grid lg:justify-items-stretch">
-			<div className="lg:absolute sm:absolute md:absolute lg:justify-self-start sm:justify-self-start md:justify-self-start  lg:visible xl:invisible 2xl:invisible">
+			<div className="invisible sm:visible md:visible lg:visible sm:absolute md:absolute  lg:absolute  sm:justify-self-start md:justify-self-start lg:justify-self-start ">
 				<div className=" lg:pt-4 lg:pb-2 ">
 					<a
 						href="#"
@@ -29,7 +29,7 @@ const NavBar = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center flex-shrink-0 float-left lg:absolute sm:absolute md:absolute lg:justify-self-center sm:justify-self-center md:justify-self-center   lg:absolute lg:justify-self-center lg:pt-0 ">
+			<div className="flex items-center flex-shrink-0 xl:float-left 2xl:float-left sm:absolute md:absolute  lg:absolute sm:justify-self-center md:justify-self-center   lg:justify-self-center sm:pt-0 md:pt-0 lg:pt-0 ">
 				<Image
 					src="/logos/airasiacom_logo.svg"
 					width="150"
@@ -38,7 +38,7 @@ const NavBar = () => {
 				/>
 			</div>
 
-			<div className="lg:absolute lg:justify-self-end sm:absolute md:absolute lg:justify-self-end sm:justify-self-end md:justify-self-end 	lg:visible xl:invisible 2xl:invisible">
+			<div className="invisible sm:visible md:visible lg:visible sm:absolute md:absolute  lg:absolute sm:justify-self-end md:justify-self-end  lg:justify-self-end 	 ">
 				<div className=" lg:pt-4 lg:pb-2 ">
 					<a
 						href="#"

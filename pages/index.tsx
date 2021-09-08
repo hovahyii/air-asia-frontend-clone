@@ -21,6 +21,7 @@ export default function Home() {
 					airasia | For Everyone | Flights, Hotels, Activities &amp; More
 				</title>
 				<meta charSet="UTF-8" />
+				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<meta
 					property="og:title"
 					content="airasia | For Everyone | Flights, Hotels, Activities &amp; More"
