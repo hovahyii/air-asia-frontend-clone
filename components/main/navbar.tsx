@@ -15,7 +15,7 @@ const NavBar = () => {
 		: "border-0	text-gray-500 "
 
 	return (
-		<nav className="font-DMsans text-center content-center px-16 lg:px-2 bg-white lg:border lg:w-full lg:h-14 lg:shadow-xl	lg:grid lg:justify-items-stretch">
+		<nav className="font-DMsans text-center content-center px-16 lg:px-2 bg-white lg:border lg:w-full lg:h-14 lg:shadow-xl sm:grid md:grid	lg:grid sm:justify-items-stretch md:justify-items-stretch lg:justify-items-stretch">
 			<div className="invisible  lg:visible lg:absolute lg:justify-self-start ">
 				<div className=" lg:pt-4 lg:pb-2 ">
 					<a
@@ -29,7 +29,7 @@ const NavBar = () => {
 				</div>
 			</div>
 
-			<div className="flex items-center flex-shrink-0  lg:absolute lg:justify-self-center lg:pt-0 ">
+			<div className="flex items-center flex-shrink-0 float-left lg:absolute lg:justify-self-center lg:pt-0 ">
 				<Image
 					src="/logos/airasiacom_logo.svg"
 					width="150"
